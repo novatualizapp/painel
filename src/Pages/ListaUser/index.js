@@ -9,7 +9,7 @@ const colunas = [
     { field: 'id', headerName: 'ID', width: 70 },
     { field: 'usuario', headerName: 'Usuario', width: 200 },
     { field: 'senha', headerName: 'Senha', width: 130 },
-    { field: 'codigo', headerName: 'Assinatura', width: 170 },
+    { field: 'codigo', headerName: 'Codigo', width: 170 },
 
 ];
 

@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route component={Login} path="/" exact />
-          <PrivateRoute component={Dashboard} path="/dashboard" exact />
+          <Route component={Dashboard} path="/dashboard" exact />
           <Route component={ListaUser} path="/listauser" exact />
         </Switch>
       </BrowserRouter>

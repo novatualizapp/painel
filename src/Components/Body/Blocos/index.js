@@ -26,7 +26,7 @@ export default function Blocos() {
 
   const [contUsers, setContUsers] = useState()
 
-  axios.get('https://back-9no1.onrender.com:10000/usuarios').then(resolve => {
+  axios.get('https://back-9no1.onrender.com/usuarios').then(resolve => {
     console.log(resolve.data.length)
     setContUsers(resolve.data.length)
     return 

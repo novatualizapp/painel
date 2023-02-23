@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://back-9no1.onrender.com:10000/usuarios',
+  baseURL: 'https://back-9no1.onrender.com:10000',
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',

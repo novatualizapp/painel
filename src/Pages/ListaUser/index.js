@@ -7,9 +7,9 @@ import Menu from '../../Components/Header/Menu';
 
 const colunas = [
     { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'usuario', headerName: 'Usuario', width: 200 },
-    { field: 'senha', headerName: 'Senha', width: 130 },
-    { field: 'codigo', headerName: 'Codigo', width: 170 },
+    { field: 'user', headerName: 'Usuario', width: 200 },
+    { field: 'sen', headerName: 'Senha', width: 130 },
+    { field: 'cod', headerName: 'Codigo', width: 170 },
 
 ];
 

@@ -5,7 +5,7 @@ const instance = axios.create({
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
-    "Access-Control-Allow-Origin": "https://xtematualize.online/",
+    "Access-Control-Allow-Origin": "'https://painel-blush.vercel.app",
   }, 
   timeout: 3000,
 })

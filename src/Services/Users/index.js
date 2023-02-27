@@ -18,9 +18,7 @@ const carregarUsuarios = () => new Promise(async (resolve, reject) => {
 const deletarUsuarios = (listaDeUsuarios) => new Promise(async (resolve, reject) => {
     try{
         const response = await axios.delete('/usuarios', {
-            headers: {
-                "Access-Control-Allow-Origin": "'https://painel-blush.vercel.app",
-            },
+            
         })
         alert(response.data)
         resolve([])
